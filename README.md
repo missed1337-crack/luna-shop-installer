@@ -1,4 +1,25 @@
-# vinext-starter
+# LUNA|SHOP public installer
+
+This repository intentionally contains only the public, auditable launcher for
+the private LUNA|SHOP storefront. It contains no credentials, account data,
+catalog database, payment data, or private storefront source.
+
+Install for the current Windows user:
+
+```powershell
+irm https://raw.githubusercontent.com/missed1337-crack/luna-shop-installer/main/install.ps1 | iex
+```
+
+Open a new terminal and run:
+
+```powershell
+luna-shop
+```
+
+The launcher only opens the private HTTPS storefront. Authentication is still
+required.
+
+## Installer website
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and

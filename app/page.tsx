@@ -8,7 +8,7 @@ export default function Home() {
         This public page contains only the auditable PowerShell launcher.
         The store, accounts, catalog and source remain private.
       </p>
-      <pre><code>irm https://luna-shop-installer.missed1337.chatgpt.site/install.ps1 | iex</code></pre>
+      <pre><code>irm https://raw.githubusercontent.com/missed1337-crack/luna-shop-installer/main/install.ps1 | iex</code></pre>
       <a href="/install.ps1" download>Download install.ps1 <span>↓</span></a>
       <section>
         <div><b>01</b><p>Installs a user-level <code>luna-shop</code> command.</p></div>
