@@ -1,12 +1,12 @@
 $ErrorActionPreference = "Stop"
 
-$siteUrl = "https://luna-shop-private-drop.missed1337.chatgpt.site/"
+$siteUrl = "http://localhost:1337/"
 $installRoot = Join-Path $env:LOCALAPPDATA "LunaShop"
 $launcherPath = Join-Path $installRoot "luna-shop.cmd"
 $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
 
-if (-not $siteUrl.StartsWith("https://") -or $siteUrl.Contains("<")) {
-  throw "The store owner must configure a real HTTPS address before publishing this installer."
+if ($siteUrl -ne "http://localhost:1337/") {
+  throw "The LUNA|SHOP local demo launcher must use http://localhost:1337/."
 }
 
 New-Item -ItemType Directory -Path $installRoot -Force | Out-Null
@@ -22,5 +22,5 @@ if ($pathEntries -notcontains $installRoot) {
 Write-Host "LUNA|SHOP DEMO ONLY - real payments and shipments are disabled."
 Write-Host "LUNA|SHOP launcher installed for the current user."
 Write-Host "Open a new terminal and run: luna-shop"
-Write-Host "The private store will still require sign-in."
+Write-Host "The local server must already be running on http://localhost:1337/."
 Write-Host "To uninstall, remove $installRoot and its user PATH entry."
