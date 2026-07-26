@@ -4,6 +4,7 @@ export default function Home() {
       <div className="orb" aria-hidden="true" />
       <p className="eyebrow">LUNA / SAFE LAUNCHER / WINDOWS</p>
       <h1>LUNA<span>|</span>SHOP</h1>
+      <p><strong>DEMO ONLY — NO REAL STORE, PAYMENTS OR SHIPMENTS</strong></p>
       <p className="lead">
         This public page contains only the auditable PowerShell launcher.
         The store, accounts, catalog and source remain private.
@@ -15,7 +16,7 @@ export default function Home() {
         <div><b>02</b><p>Opens the private HTTPS store in your browser.</p></div>
         <div><b>03</b><p>Never stores a password, token, cookie or payment detail.</p></div>
       </section>
-      <footer>PUBLIC INSTALLER · PRIVATE STORE · PAYMENT DISABLED</footer>
+      <footer>DEMO ONLY · PUBLIC INSTALLER · PRIVATE STORE · PAYMENT DISABLED</footer>
     </main>
   );
 }
