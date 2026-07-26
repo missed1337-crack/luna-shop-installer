@@ -26,8 +26,9 @@ Open a new terminal and run:
 luna-shop
 ```
 
-The launcher only opens the private HTTPS storefront. Authentication is still
-required.
+The launcher opens `http://localhost:1337/`. The LUNA|SHOP server must already
+be running on the same computer; the installer does not download the private
+storefront source.
 
 ## Installer website
 
