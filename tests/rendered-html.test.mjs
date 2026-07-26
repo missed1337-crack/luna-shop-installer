@@ -35,6 +35,7 @@ test("server-renders the LUNA SHOP safe installer", async () => {
   assert.match(html, /<title>LUNA\|SHOP — Safe Installer<\/title>/i);
   assert.match(html, new RegExp(`irm ${installerUrl.replaceAll(".", "\\.")} \\| iex`));
   assert.match(html, /The store, accounts, catalog and source remain private\./);
+  assert.match(html, /DEMO ONLY — NO REAL STORE, PAYMENTS OR SHIPMENTS/);
   assert.match(html, /PAYMENT DISABLED/);
   assert.doesNotMatch(html, /<input|card number|bank account/i);
 });
@@ -48,6 +49,7 @@ test("publishes identical, credential-free launcher scripts", async () => {
   assert.equal(rootInstaller, publicInstaller);
   assert.match(rootInstaller, /\$env:LOCALAPPDATA/);
   assert.match(rootInstaller, /luna-shop\.cmd/);
+  assert.match(rootInstaller, /LUNA\|SHOP DEMO ONLY/);
   assert.match(
     rootInstaller,
     /https:\/\/luna-shop-private-drop\.missed1337\.chatgpt\.site\//,

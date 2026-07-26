@@ -1,0 +1,21 @@
+LUNA|SHOP PROPRIETARY DEMO LICENSE
+
+Copyright (c) 2026 LUNA|SHOP. All rights reserved.
+
+This repository is published only to distribute and audit the LUNA|SHOP
+demonstration launcher. No license or permission is granted to copy, modify,
+redistribute, sublicense, sell, rebrand, host, publish, reverse engineer, or
+create derivative works from its source code, design, documentation, or assets.
+
+An authorized user may execute the unmodified install.ps1 solely to install the
+luna-shop launcher and access the private demonstration.
+
+The storefront is a demonstration. Products, orders, delivery tracking,
+reviews, maps, QR codes, and payment flows are simulated. Real payment
+processing and collection of banking details are disabled.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM
+EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM,
+DAMAGE, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+For permissions, contact the repository owner.

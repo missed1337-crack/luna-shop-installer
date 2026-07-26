@@ -1,8 +1,18 @@
 # LUNA|SHOP public installer
 
+> [!WARNING]
+> **DEMO ONLY — NOT A REAL STORE.** Products, orders, delivery tracking, maps,
+> QR codes, reviews, and payment flows are simulated. Real payments and
+> collection of banking details are disabled.
+
 This repository intentionally contains only the public, auditable launcher for
 the private LUNA|SHOP storefront. It contains no credentials, account data,
 catalog database, payment data, or private storefront source.
+
+The repository is public only because PowerShell must be able to download
+`install.ps1` without a GitHub token. Public visibility permits technical
+download but grants no right to copy, modify, redistribute, resell, rebrand, or
+reuse the code. See [LICENSE](LICENSE).
 
 Install for the current Windows user:
 

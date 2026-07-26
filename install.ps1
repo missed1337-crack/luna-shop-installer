@@ -19,6 +19,7 @@ if ($pathEntries -notcontains $installRoot) {
   [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
 }
 
+Write-Host "LUNA|SHOP DEMO ONLY - real payments and shipments are disabled."
 Write-Host "LUNA|SHOP launcher installed for the current user."
 Write-Host "Open a new terminal and run: luna-shop"
 Write-Host "The private store will still require sign-in."
